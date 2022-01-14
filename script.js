@@ -15,12 +15,6 @@ function puzzle(x) {
         if(i % 3 == 0 && i % 5 == 0) {
             console.log('Fizz Buzz')
         }
-
-        //Check if i is divisible by 5
-        //If so then print 'Buz '
-        else if(i % 5 == 0) {
-            console.log('Buzz ')
-        }
         
         //Check if i is divisible by 3
         //If so then print 'Fizz '
