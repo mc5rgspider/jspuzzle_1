@@ -7,25 +7,33 @@
 
 function puzzle(x) {
 
+    //Go thtough from 1 to parameter
     for(i=1; i <= x; i++) {
 
+        //Check if i is divisible by 3 and 5
+        //If so then print 'Fizz Buzz'
         if(i % 3 == 0 && i % 5 == 0) {
             console.log('Fizz Buzz')
         }
 
+        //Check if i is divisible by 5
+        //If so then print 'Buz '
         else if(i % 5 == 0) {
             console.log('Buzz ')
         }
-
+        
+        //Check if i is divisible by 3
+        //If so then print 'Fizz '
         else if(i % 3 == 0) {
             console.log('Fizz ')
         }
 
+        //Other than that, print i 
         else {
             console.log(i)
         }
     }
 }
 
-
+//Run function
 puzzle(100)
